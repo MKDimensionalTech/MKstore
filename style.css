@@ -1,0 +1,549 @@
+
+@charset "utf-8";
+@font-face {
+    font-family: "hansip" ;
+    src: url(hansip/Hansip.otf) format("opentype");
+}
+@font-face {
+    font-family: "robotica";
+    src: url(roboto/Roboto-Black.ttf)format("truetype");
+}
+@font-face {
+    font-family:"hey" ;
+    src: url(hey_comic/Hey\ Comic.otf) format("opentype");
+}
+@font-face {
+    font-family:"omegle" ;
+    src: url(omegle/OMEGLE.otf) format("opentype");
+}
+@font-face {
+    font-family: "wigle";
+    src: url(wigglye/Wigglye.ttf) format("truetupe");
+}
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+div#menu{
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    display: inline-flex;
+    background-image: linear-gradient(to right,#280338,#5d0583,#7a03ac,#280338) ;
+    height: 70px;
+    color: white;
+}
+div#menu>h1{
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3px;
+    padding: 10px;
+}
+div#menu>h1>a:hover{
+    background-color: wheat;
+    color: #280338;
+}
+div#menu>ul#meumenu{
+    display: inline-flex;
+}
+div#menu>ul#meumenu>div>li{
+    list-style: none;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
+    padding: 8px;
+    border-radius: 20px 20px;
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#menu>ul#meumenu>div>li#masc:hover{
+    color:#ce6bf9;
+    background-color: #280338;
+}
+div#menu>ul#meumenu>div>li#fem:hover{
+    color:#ce6bf9;
+    background-color: #280338;
+}
+div#menu>ul#meumenu>div>li#inf:hover{
+    color:#ce6bf9;
+    background-color: #280338;
+}
+div#menu>ul#meumenu>div>div#minif>li{
+    list-style: none;
+    background-color: #280338;
+    padding: 5px;
+    position: relative;
+}
+div#menu>ul#meumenu>div>div#minif{
+    margin-top: 5px;
+    display: none;
+}
+div#menu>ul#meumenu>div>div#minii>li{
+    list-style: none;
+    background-color: #280338;
+    padding: 5px;
+    position: relative;
+}
+div#menu>ul#meumenu>div>div#minii{
+    margin-top: 5px;
+    display: none;
+}
+div#menu>ul#meumenu>div>div#minim>li{
+    list-style: none;
+    background-color: #280338;
+    padding: 5px;
+    position: relative;
+}
+div#menu>ul#meumenu>div>div#minim{
+    margin-top: 5px;
+    display: none;
+}
+div#menu>a>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    padding: 10px;
+}
+div#menupequeno{
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    display: inline-flex;
+    background-color: #280338;
+    height: 50px;
+}
+div#menupequeno>a>img{
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+    padding: 10px;
+}
+div#menupequeno>a>img:hover{
+    background-color: wheat;
+}
+div#menupequeno>a>div#barra{
+    margin-top: 10px;
+}
+div#menupequeno>a>div#barra>div#B1{
+    background-color: wheat;
+    width: 30PX;
+    height: 4px;
+}
+div#menupequeno>a>div#barra>div#B2{
+    background-color: wheat;
+    width: 40PX;
+    height: 4px;
+    margin-top: 5px;
+}
+div#menupequeno>a>div#barra>div#B3{
+    background-color: wheat;
+    width: 45PX;
+    height: 4px;
+    margin-top: 5px;
+}
+div#menupequeno>h1>a{
+    color: wheat;
+}
+div#menupequeno>h1>a:hover{
+    background-color: wheat;
+    color: #280338;
+}
+section#camisetas{
+    display: inline-flex;
+    height: 430px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+section#camisetas>div#texto>a>h2{
+    margin: 30px;
+    color: black;
+    font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section#camisetas>div#texto>p{
+    margin: 10px 40px 10px 40px ;
+    text-align: justify;
+    font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+section#camisetas>div#texto>img{
+    width: 250px;
+    height: 230px;
+    margin-left: 40px;
+    background-color: #ce6bf9;
+}
+section#camisetas>div#imagem{
+    background-color: rgb(14, 7, 17);
+    width: 430px;
+    height: 400px;
+}
+section#camisetas>div#imagem>img{
+    margin: auto;
+    padding: 50px 50px 10px 50px;
+    color: white;
+    width: 300px;
+    height: 250px;
+}
+section#camisetas>div#imagem>h4{
+    margin-left: 50px;
+    color: white;
+    font-size: 0.6em;
+    font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section#calça{
+    display: inline-flex;
+    height: 430px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+section#calça>div#texto>a>h2{
+    margin: 30px;
+    color: black;
+    font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section#calça>div#texto>p{
+    margin: 10px 40px 10px 40px ;
+    font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+section#calça>div#texto>img{
+    width: 280px;
+    height: 200px;
+    margin-left: 40px;
+    background-color: #ce6bf9;
+}
+section#calça>div#imagem{
+    background-color: rgb(14, 7, 17);
+    width: 430px;
+    height: 400px;
+}
+section#calça>div#imagem>img{
+    margin: auto;
+    padding: 50px 50px 10px 50px;
+    color: white;
+    width: 300px;
+    height: 250px;
+}
+section#calça>div#imagem>h4{
+    color: white;
+    margin-left: 50px;
+    font-size: 0.6em;
+    font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section#calçado{
+    display: inline-flex;
+    height: 430px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+section#calçado>div#texto>a>h2{
+    margin: 30px;
+    font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+section#calçado>div#texto>p{
+    margin: 10px 40px 0px 40px ;
+    font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+section#calçado>div#texto>video{
+    width: 190px;
+    height: 150px;
+    margin-left: 40px;
+}
+section#calçado>div#imagem{
+    background-color: rgb(14, 7, 17);
+    width: 430px;
+    height: 400px;
+}
+section#calçado>div#imagem>img{
+    margin: auto;
+    padding: 50px 50px 10px 50px;
+    color: white;
+    width: 300px;
+    height: 250px;
+}
+section#calçado>div#imagem>h4{
+    margin-left: 50px;
+    color: white;
+    font-size: 0.6em;
+    font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    width: 100%;
+    justify-content: space-around;
+    display: inline-flex;
+    background-color: #280338;
+}
+footer>div#M{
+    color: white;
+    padding: 20px;
+}
+footer>div#F{
+    padding: 20px;
+    color: white;
+}
+footer>div#I{
+    padding: 20px;
+    color: white;
+}
+footer>div#RD{
+    display: inline-flex;
+    margin-left: -30px;
+    margin-top: 13px;
+}
+footer>div#RD>div#RD1>ul>li{
+    margin-left: -30px;
+    list-style: none;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: #ce6bf9;
+    background-color: #4d036f;
+}
+footer>div#RD>div#RD2>ul>li{
+    list-style: none;
+    margin-left: -40px;
+    padding: 5px;
+}
+@media (max-width:849px) {
+    div#menu{
+        position: absolute;
+        display: none;
+        visibility: hidden;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        display: inline-flex;
+        background-image: linear-gradient(to right,#280338,#5d0583,#7a03ac,#280338) ;
+        height: 70px;
+        color: white;
+    }
+    div#menupequeno{
+        display: block;
+        visibility: visible;
+        position: fixed;
+        display: inline-flex;
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+        display: inline-flex;
+        background-color: #280338;
+        height: 50px;
+    }
+    div#menupequeno>a>img{
+        width: 30px;
+        height: 30px;
+        margin-top: -4px;
+        padding: 10px;
+    }
+    div#menupequeno>a>img:hover{
+        background-color: wheat;
+    }
+    div#menupequeno>div#barra{
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    div#menupequeno>div#barra>div#B1{
+        background-color: wheat;
+        width: 30PX;
+        height: 4px;
+    }
+    div#menupequeno>div#barra>div#B2{
+        background-color: wheat;
+        width: 40PX;
+        height: 4px;
+        margin-top: 5px;
+    }
+    div#menupequeno>div#barra>div#B3{
+        background-color: wheat;
+        width: 45PX;
+        height: 4px;
+        margin-top: 5px;
+    }
+    div#menupequeno>h1>a{
+        color: white;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menupequeno>h1>a:hover{
+        background-color: wheat;
+        color: #280338;
+    }
+    div#menupequeno>ul#meumenupeq{
+        background-color: #280338;
+        height: 490px;
+        list-style: none;
+        width: 220px;
+        display: none;
+        border-radius: 30px 0px;
+    }
+    div#menupequeno>ul#meumenupeq>div>li#mascu{
+        margin-top: 30px;
+        margin-left: -40px;
+        color:white;
+        float: left;
+        background-color: #5f3372;
+        width: 260px;
+        height: 25px;
+        cursor: pointer;
+        padding-top: 8px;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menupequeno>ul#meumenupeq>div>li#femi{
+        margin-top: 30px;
+        margin-left: -50px;
+        color:white;
+        float: left;
+        background-color: #5f3372;
+        width: 270px;
+        height: 25px;
+        cursor: pointer;
+        padding-top: 8px;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menupequeno>ul#meumenupeq>div>li#infa{
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: -55px;
+        color:white;
+        float: left;
+        background-color: #5f3372;
+        width: 275px;
+        height: 25px;
+        padding-top: 8px;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menupequeno>ul#meumenupeq>div>div>li{
+        margin-left: 50px;
+        margin-top: 10px;
+        float: left;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menupequeno>ul#meumenupeq>div>div>li>a{
+        background-color: #280338;
+        color: white;
+    }
+    div#menupequeno>ul#meumenupeq>div#X{
+        margin-top: 20px;
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    div#menupequeno>ul#meumenupeq>div#X>div#X1{
+        width: 35px;
+        height: 4px;
+        background-color:wheat;
+        transform: rotate(45deg);
+    }
+    div#menupequeno>ul#meumenupeq>div#X>div#X2{
+        position: absolute;
+        width: 35px;
+        margin-top: -4px;
+        height: 4px;
+        background-color: wheat;
+        transform: rotate(-45deg);
+    }
+    section#camisetas{
+        display: flexbox;
+        margin-top: 80px;
+    }
+    section#camisetas>div#texto>a>h2{
+        color: black;
+        font-size: 1.3em;
+        font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section#camisetas>div#texto>p{
+        text-align: justify;
+    }
+    section#camisetas>div#texto>img{
+        visibility: hidden;
+        display: none;
+        width: 50px;
+        height: 30px;
+        background-color: #ce6bf9;
+    }
+    section#camisetas>div#imagem{
+        background-color: rgb(14, 7, 17);
+        width: 240px;
+        height: 250px;
+    }
+    section#camisetas>div#imagem>img{
+        margin: auto;
+        width: 90px;
+        height: 90px;
+    }
+    section#calça{
+        display: flexbox;
+        margin-top: -160px;
+    }
+    section#calça>div#texto>a>h2{
+        color: black;
+        font-size: 1.3em;
+        font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section#calça>div#texto>p{
+        text-align: justify;
+    }
+    section#calça>div#texto>img{
+        visibility: hidden;
+        display: none;
+        width: 50px;
+        height: 30px;
+        background-color: #ce6bf9;
+    }
+    section#calça>div#imagem{
+        background-color: rgb(14, 7, 17);
+        width: 250px;
+        height: 290px;
+    }
+    section#calça>div#imagem>img{
+        margin: auto;
+        width: 90px;
+        height: 90px;
+    }
+    section#calça>div#imagem>h4{
+        color: white;
+        margin-left: 50px;
+    }
+    section#calçado{
+        display: flexbox;
+        margin-top: -100px;
+    }
+    section#calçado>div#texto>a>h2{
+        color: black;
+        font-size: 1.15em;
+        font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section#calçado>div#texto>p{
+        text-align: justify;
+    }
+    section#calçado>div#texto>video{
+        visibility: hidden;
+        display: none;
+        width: 50px;
+        height: 30px;
+        background-color: #ce6bf9;
+    }
+    section#calçado>div#imagem{
+        background-color: rgb(14, 7, 17);
+        width: 250px;
+        height: 410px;
+    }
+    section#calçado>div#imagem>img{
+        margin: auto;
+        width: 90px;
+        height: 90px;
+    }
+    section#calçado>div#imagem>h4{
+        color: white;
+    }
+}

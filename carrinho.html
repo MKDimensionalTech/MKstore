@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKstore</title>
+    <link rel="shortcut icon" href="icons8-fast-cart-gradient-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylecarrinho.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <h1><a href="index.html">MKSTORE</a></h1>
+        <ul id="meumenu">
+            <div id="masculino">
+                <li id="masc">
+                    MASCULINO
+                </li>
+                <div id="minim">
+                    <li>
+                        <a href="calças.html">CALÇAS</a></li>
+                    <li><a href="camisetas.html">CAMISETAS</a></li>
+                    <li><a href="calçados.html">CALÇADOS</a></li>
+                </div>
+            </div>
+            <div id="feminino">
+                <li id="fem">
+                FEMININO
+                </li>
+                <div id="minif">
+                    <li><a href="calças.html">CALÇAS</a></li>
+                    <li><a href="camisetas.html">CAMISETAS</a></li>
+                    <li><a href="calçados.html">CALÇADOS</a></li>
+                </div>
+            </div>
+            <div id="infantil">
+                <li id="inf">
+                    INFANTIL
+                </li>
+                <div id="minii">
+                    <li><a href="calças.html">CALÇAS</a></li>
+                    <li><a href="camisetas.html">CAMISETAS</a></li>
+                    <li><a href="calçados.html">CALÇADOS</a></li>
+                </div>
+            </div>
+        </ul>
+        <img src="carrinho-de-compras (1).png" alt="">
+    </div>
+    <section>
+        <div id="compras">
+            
+        </div>
+        <div id="cadastro">
+
+        </div>
+        <div id="finalizar">
+
+        </div>
+    </section>
+
+    <footer>
+        <div id="M">
+            <h3>Masculino</h3>
+            <a href="camisetas.html"><p>Camisetas</p></a>
+            <a href="calças.html"><p>Calças</p></a>
+            <a href="calçados.html"><p>Calçados</p></a>
+        </div>
+        <div id="F">
+            <h3>Feminino</h3>
+            <a href="camisetas.html"><p>Camisetas</p></a>
+            <a href="calças.html"><p>Calças</p></a>
+            <a href="calçados.html"><p>Calçados</p></a>
+        </div>
+        <div id="I">
+            <h3>Infantil</h3>
+            <a href="camisetas.html"><p>Camisetas</p></a>
+            <a href="calças.html"><p>Calças</p></a>
+            <a href="calçados.html"><p>Calçados</p></a>
+        </div>
+        <div id="RD">
+            <div id="RD1">
+                <ul>
+                    <li>
+                        <a href="@" target="_blank" rel="next"><img src="facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="@" target="_blank" rel="next"><img src="whatsapp.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="RD2">
+                <UL>
+                    <li>
+                        <a href="@" target="_blank" rel="next"><img src="gmail.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="@" target="_blank" rel="next"><img src="instagram.png" alt=""></a>
+                    </li>
+                </UL>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const masc= document.getElementById("masc")
+        const masculino = document.getElementById("masculino")
+        masculino.addEventListener('mouseout', fecharm)
+        masculino.addEventListener('mouseover', abrirm)
+        const minim = document.getElementById("minim")
+        const minif = document.getElementById("minif")
+        const minii = document.getElementById("minii")
+        const infantil = document.getElementById("infantil")
+        infantil.addEventListener('mouseout', fechari)
+        infantil.addEventListener('mouseover', abriri)
+        const feminino = document.getElementById("feminino")
+        feminino.addEventListener('mouseout', fecharf)
+        feminino.addEventListener('mouseover', abrirf)
+        const inf= document.getElementById("inf")
+        function abrirm(){
+            minim.style.display="block"
+            minim.style.visibility="visible"
+        }
+        function fecharm(){
+            minim.style.display="none"
+            minim.style.visibility="hidden"
+        }
+        function abrirf(){
+            minif.style.display="block"
+            minif.style.visibility="visible"
+        }
+        function fecharf(){
+            minif.style.display="none"
+            minif.style.visibility="hidden"
+        }
+        function abriri(){
+            minii.style.display="block"
+            minii.style.visibility="visible"
+        }
+        function fechari(){
+            minii.style.display="none"
+            minii.style.visibility="hidden"
+        }
+    </script>
+</body>
+</html>
