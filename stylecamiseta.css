@@ -32,7 +32,7 @@ div#menu{
     justify-content: space-around;
     width: 100%;
     display: inline-flex;
-    background-color: #280338;
+    background-image: linear-gradient(to right,#280338,#5d0583,#7a03ac,#280338) ;
     height: 70px;
     color: white;
 }
@@ -54,8 +54,8 @@ div#menu>ul#meumenu>div>li{
     margin-left: 23px;
     margin-right: 23px;
     padding: 8px;
-    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 20px 20px;
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 div#menu>ul#meumenu>div>li#masc:hover{
     color:#ce6bf9;
@@ -108,12 +108,9 @@ div#menu>a>img{
 div#menupequeno{
     position: absolute;
     display: none;
-    visibility: hidden;
-    display: inline-flex;
     text-align: center;
     justify-content: space-around;
     width: 100%;
-    display: inline-flex;
     background-color: #280338;
     height: 50px;
 }
@@ -126,40 +123,123 @@ div#menupequeno>a>img{
 div#menupequeno>a>img:hover{
     background-color: wheat;
 }
-div#menupequeno>a>div#barra{
+div#menupequeno>div#barra{
     margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
 }
-div#menupequeno>a>div#barra>div#B1{
+div#menupequeno>div#barra>div#B1{
     background-color: wheat;
     width: 30PX;
     height: 4px;
 }
-div#menupequeno>a>div#barra>div#B2{
+div#menupequeno>div#barra>div#B2{
     background-color: wheat;
     width: 40PX;
     height: 4px;
     margin-top: 5px;
 }
-div#menupequeno>a>div#barra>div#B3{
+div#menupequeno>div#barra>div#B3{
     background-color: wheat;
     width: 45PX;
     height: 4px;
     margin-top: 5px;
 }
 div#menupequeno>h1>a{
+    color: white;
     font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: wheat;
+}
+div#menupequeno>h1>a:hover{
+    background-color: wheat;
+    color: #280338;
+}
+div#menupequeno>ul#meumenupeq{
+    background-color: #280338;
+    height: 490px;
+    list-style: none;
+    width: 220px;
+    display: none;
+    border-radius: 30px 0px;
+}
+div#menupequeno>ul#meumenupeq>div>li#mascu{
+    margin-top: 30px;
+    margin-left: -40px;
+    color:white;
+    float: left;
+    background-color: #5f3372;
+    width: 260px;
+    height: 25px;
+    cursor: pointer;
+    padding-top: 8px;
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#menupequeno>ul#meumenupeq>div>li#femi{
+    margin-top: 30px;
+    margin-left: -50px;
+    color:white;
+    float: left;
+    background-color: #5f3372;
+    width: 270px;
+    height: 25px;
+    cursor: pointer;
+    padding-top: 8px;
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#menupequeno>ul#meumenupeq>div>li#infa{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: -55px;
+    color:white;
+    float: left;
+    background-color: #5f3372;
+    width: 275px;
+    height: 25px;
+    padding-top: 8px;
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#menupequeno>ul#meumenupeq>div>div>li{
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+    font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#menupequeno>ul#meumenupeq>div>div>li>a{
+    background-color: #280338;
+    color: white;
+}
+div#menupequeno>ul#meumenupeq>div#X{
+    margin-top: 20px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+div#menupequeno>ul#meumenupeq>div#X>div#X1{
+    width: 35px;
+    height: 4px;
+    background-color:wheat;
+    transform: rotate(45deg);
+}
+div#menupequeno>ul#meumenupeq>div#X>div#X2{
+    position: absolute;
+    width: 35px;
+    margin-top: -4px;
+    height: 4px;
+    background-color: wheat;
+    transform: rotate(-45deg);
 }
 section#camisetavenda{
     display: inline-flex;
 }
+div#cortm{
+    margin-right: 15px;
+}
 section#camisetavenda>div#venda{
-    background-color: #ce6bf9;
+    background-color: #d271fb;
+    box-shadow: 3px 3px 3px 3px #2a003c;
     padding: 70px;
 }
 section#camisetavenda>div#venda>h1{
     font-size: 3em;
-    font-family:'hansip' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'robotica' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 section#camisetavenda>div#venda>div#botões{
     display: inline-flex;
@@ -202,59 +282,61 @@ section#camisetavenda>div#venda>div#botões>button#carrinho:hover{
     color: #d696f2;
 }
 section#camisetavenda>div#imagem{
-    background-color: #280338;
+    background-color: #da82ff;
 
 }
 section#camisetavenda>div#imagem>img#imggrande1{
-    width:550px;
-    height: 480px;
+    width:250px;
+    height: 280px;
     margin-left:10px;
+    margin-top: 10px;
 }
 section#camisetavenda>div#imagem>img#imggrande2{
-    width:680px;
-    height: 300px;
-    margin-left:0px;
+    width:250px;
+    height: 280px;
     display: none;
     margin-left:10px;
+    margin-top: 10px;
     visibility: hidden;
 }
 section#camisetavenda>div#imagem>img#imggrande3{
-    min-width:680px;
-    height: 300px;
-    margin-left:0px;
+    min-width:250px;
+    height: 280px;
     display: none;
+    margin-top: 10px;
     margin-left:10px;
     visibility: hidden;
 }
 section#camisetavenda>div#imagem>img#imggrande4{
-    min-width:680px;
-    height: 300px;
-    margin-left:0px;
+    min-width:250px;
+    height: 280px;
+    margin-top: 10px;
     display: none;
     margin-left:10px;
     visibility: hidden;
 }
 section#camisetavenda>div#imagem>img#imggrande5{
-    min-width:680px;
-    height: 300px;
-    margin-left:0px;
+    min-width:250px;
+    height: 280px;
+    margin-top: 10px;
     display: none;
     margin-left:10px;
     visibility: hidden;
 }
 section#camisetavenda>div#imagem>div#imgpeq>img{
-    width: 120px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     margin-top: 10px;
     margin-left: 10px;
 }
 section#camisetavenda>div#imagem>div#imgpeq{
     display: inline-flex;
     background-color: white;
-    height: 180px;
+    height: 100px;
     margin-top:10px;
-    margin-left:20px;
-    padding:10px;
+    margin-right: 10px;
+    margin-left:10px;
+    padding:08px;
 }
 table{
     margin-left: -30px;
@@ -309,32 +391,84 @@ input{
     margin: 20px 10px;
 }
 @media (max-width:1170px) and (min-width:850px) {
+    section#camisetavenda{
+        display: inline-flex;
+    }
+    section#camisetavenda>div#venda{
+        background-color: #d271fb;
+        box-shadow: 3px 3px 3px 3px #2a003c;
+        padding: 70px;
+    }
     section#camisetavenda>div#venda>h1{
         font-size: 2em;
+        font-family:'robotica' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section#camisetavenda>div#venda>div#botões{
+        display: inline-flex;
+    }
+    section#camisetavenda>div#venda>div#botões>button#comprar{
+        cursor: pointer;
+        padding: 30px;
+        background-color: #280338;
+        border: none;
+        color: white;
+        border-radius: 30px 0px;
+        box-shadow: 12px 12px 12px #4d036f;
+        font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 50px 1px 20px 0px;
+    }
+    section#camisetavenda>div#venda>div#botões>button#comprar:hover{
+        background-color: #410360;
+        color: #d696f2;
+    }
+    section#camisetavenda>div#venda>div#botões>button#carrinho{
+        font-family:'roboto' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+        padding: 30px;
+        background-color: #280338;
+        border: none;
+        box-shadow: 12px 12px 12px #4d036f;
+        color: white;
+        border-radius: 0px 30px;
+        margin: 50px 20px 20px 0px;
+    }
+    section#camisetavenda>div#venda>h1>div#botões{
+        display: none;
+    }
+    section#camisetavenda>div#venda>div#botões>button#comprar:hover{
+        background-color: #410360;
+        color: #d696f2;
+    }
+    section#camisetavenda>div#venda>div#botões>button#carrinho:hover{
+        background-color: #410360;
+        color: #d696f2;
+    }
+    section#camisetavenda>div#imagem{
+        background-color: #da82ff;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
-        min-width:380px;
-        height: 400px;
+        min-width:250px;
+        height: 380px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande2{
-        min-width:380px;
-        height: 400px;
+        min-width:250px;
+        height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande3{
-        min-width:380px;
-        height: 400px;
+        min-width:250px;
+        height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande4{
-        min-width:380px;
-        height: 400px;
+        min-width:250px;
+        height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande5{
-        min-width:380px;
-        height: 400px;
+        min-width:250px;
+        height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>div#imgpeq>img{
@@ -394,24 +528,88 @@ footer>div#RD>div#RD2>ul>li{
 }
 @media (max-width:849px) {
     div#menu{
-        position: absolute;
-        display: none;
-        visibility: hidden;
         text-align: center;
         justify-content: space-around;
         width: 100%;
-        display: inline-flex;
+        display: none;
         background-image: linear-gradient(to right,#280338,#5d0583,#7a03ac,#280338) ;
         height: 70px;
         color: white;
     }
+    div#menu>h1{
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 3px;
+        padding: 10px;
+    }
+    div#menu>h1>a:hover{
+        background-color: wheat;
+        color: #280338;
+    }
+    div#menu>ul#meumenu{
+        display: inline-flex;
+    }
+    div#menu>ul#meumenu>div>li{
+        list-style: none;
+        margin-top: 13px;
+        margin-left: 23px;
+        margin-right: 23px;
+        padding: 8px;
+        border-radius: 20px 20px;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menu>ul#meumenu>div>li#masc:hover{
+        color:#ce6bf9;
+        background-color: #280338;
+    }
+    div#menu>ul#meumenu>div>li#fem:hover{
+        color:#ce6bf9;
+        background-color: #280338;
+    }
+    div#menu>ul#meumenu>div>li#inf:hover{
+        color:#ce6bf9;
+        background-color: #280338;
+    }
+    div#menu>ul#meumenu>div>div#minif>li{
+        list-style: none;
+        background-color: #280338;
+        padding: 5px;
+        position: relative;
+    }
+    div#menu>ul#meumenu>div>div#minif{
+        margin-top: 5px;
+        display: none;
+    }
+    div#menu>ul#meumenu>div>div#minii>li{
+        list-style: none;
+        background-color: #280338;
+        padding: 5px;
+        position: relative;
+    }
+    div#menu>ul#meumenu>div>div#minii{
+        margin-top: 5px;
+        display: none;
+    }
+    div#menu>ul#meumenu>div>div#minim>li{
+        list-style: none;
+        background-color: #280338;
+        padding: 5px;
+        position: relative;
+    }
+    div#menu>ul#meumenu>div>div#minim{
+        margin-top: 5px;
+        display: none;
+    }
+    div#menu>a>img{
+        width: 30px;
+        height: 30px;
+        margin-top: 3px;
+        padding: 10px;
+    }
     div#menupequeno{
-        display: block;
-        visibility: visible;
-        position: fixed;
+        position: absolute;
         display: inline-flex;
         text-align: center;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
         display: inline-flex;
         background-color: #280338;
@@ -466,11 +664,11 @@ footer>div#RD>div#RD2>ul>li{
     }
     div#menupequeno>ul#meumenupeq>div>li#mascu{
         margin-top: 30px;
-        margin-left: -40px;
+        margin-left: 0px;
         color:white;
         float: left;
         background-color: #5f3372;
-        width: 260px;
+        width: 220px;
         height: 25px;
         cursor: pointer;
         padding-top: 8px;
@@ -478,11 +676,11 @@ footer>div#RD>div#RD2>ul>li{
     }
     div#menupequeno>ul#meumenupeq>div>li#femi{
         margin-top: 30px;
-        margin-left: -50px;
+        margin-left: 0px;
         color:white;
         float: left;
         background-color: #5f3372;
-        width: 270px;
+        width: 220px;
         height: 25px;
         cursor: pointer;
         padding-top: 8px;
@@ -491,11 +689,11 @@ footer>div#RD>div#RD2>ul>li{
     div#menupequeno>ul#meumenupeq>div>li#infa{
         cursor: pointer;
         margin-top: 30px;
-        margin-left: -55px;
+        margin-left: 0px;
         color:white;
         float: left;
         background-color: #5f3372;
-        width: 275px;
+        width: 220px;
         height: 25px;
         padding-top: 8px;
         font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -512,7 +710,7 @@ footer>div#RD>div#RD2>ul>li{
     }
     div#menupequeno>ul#meumenupeq>div#X{
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 0px;
         cursor: pointer;
     }
     div#menupequeno>ul#meumenupeq>div#X>div#X1{
@@ -531,17 +729,21 @@ footer>div#RD>div#RD2>ul>li{
     }
     section#camisetavenda{
         display: inline-block;
+        background-color: #d271fb;
+        box-shadow: 3px 3px 3px 3px #2a003c;
     }
     section#camisetavenda>div#venda{
-        background-color: #ce6bf9;
-        padding: 10px;
+        background-color: #d271fb;
+        box-shadow: 3px 3px 3px 3px #2a003c;
         margin-top: 50px;
         display: inline-flex;
+        padding: 0px;
         width: 100%;
     }
     section#camisetavenda>div#venda>h1{
         font-size: 1.5em;
         max-width: 400px;
+        padding: 10px;
     }
     section#camisetavenda>div#venda>div#botões{
         display: none;
@@ -582,52 +784,53 @@ footer>div#RD>div#RD2>ul>li{
         color: #d696f2;
     }
     section#camisetavenda>div#imagem{
-        background-color: #280338;
+        background-color:#da82ff;
         display: inline-flex;
         width: 100%;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
-        width:400px;
-        height: 480px;
+        width:250px;
+        height: 280px;
         margin-left: 30px;
         margin-top:10px
     }
     section#camisetavenda>div#imagem>img#imggrande2{
-        width:500px;
-        height: 480px;
+        width:250px;
+        height: 280px;
         margin-left:30px;
         margin-top:10px
     }
     section#camisetavenda>div#imagem>img#imggrande3{
-        width:300px;
-        height: 380px;
-        margin-left: -190px;
+        width:250px;
+        height: 280px;
         margin-top:10px
     }
     section#camisetavenda>div#imagem>img#imggrande4{
-        width:300px;
-        height: 380px;
-        margin-left: -190px;
-        margin-top:10px
+        width:250px;
+        height: 280px;
+        margin-top:10px;
+        margin-left:30px;
+
     }
     section#camisetavenda>div#imagem>img#imggrande5{
-        width:300px;
-        height: 380px;
-        margin-left: -190px;
-        margin-top:10px
+        width:250px;
+        height: 280px;
+        margin-top:10px;
+        margin-left:30px;
+
     }
     section#camisetavenda>div#imagem>div#imgpeq>img{
-        width: 90px;
-        height:80px;
+        width: 50px;
+        height:50px;
         margin-top: 5px;
     }
     section#camisetavenda>div#imagem>div#imgpeq{
         display: inline-block;
         background-color: white;
-        height: 470px;
-        width: 110px;
+        height: 300px;
+        width: 70px;
         margin-top: 10px;
-        margin-left:0px;
+        margin-left:10px;
         padding:0px;
     }
     table{
@@ -688,24 +891,88 @@ footer>div#RD>div#RD2>ul>li{
 }
 @media (max-width:649px) {
     div#menu{
-        position: absolute;
-        display: none;
-        visibility: hidden;
         text-align: center;
         justify-content: space-around;
         width: 100%;
-        display: inline-flex;
+        display: none;
         background-image: linear-gradient(to right,#280338,#5d0583,#7a03ac,#280338) ;
         height: 70px;
         color: white;
     }
+    div#menu>h1{
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 3px;
+        padding: 10px;
+    }
+    div#menu>h1>a:hover{
+        background-color: wheat;
+        color: #280338;
+    }
+    div#menu>ul#meumenu{
+        display: inline-flex;
+    }
+    div#menu>ul#meumenu>div>li{
+        list-style: none;
+        margin-top: 13px;
+        margin-left: 23px;
+        margin-right: 23px;
+        padding: 8px;
+        border-radius: 20px 20px;
+        font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    div#menu>ul#meumenu>div>li#masc:hover{
+        color:#ce6bf9;
+        background-color: #280338;
+    }
+    div#menu>ul#meumenu>div>li#fem:hover{
+        color:#ce6bf9;
+        background-color: #280338;
+    }
+    div#menu>ul#meumenu>div>li#inf:hover{
+        color:#ce6bf9;
+        background-color: #280338;
+    }
+    div#menu>ul#meumenu>div>div#minif>li{
+        list-style: none;
+        background-color: #280338;
+        padding: 5px;
+        position: relative;
+    }
+    div#menu>ul#meumenu>div>div#minif{
+        margin-top: 5px;
+        display: none;
+    }
+    div#menu>ul#meumenu>div>div#minii>li{
+        list-style: none;
+        background-color: #280338;
+        padding: 5px;
+        position: relative;
+    }
+    div#menu>ul#meumenu>div>div#minii{
+        margin-top: 5px;
+        display: none;
+    }
+    div#menu>ul#meumenu>div>div#minim>li{
+        list-style: none;
+        background-color: #280338;
+        padding: 5px;
+        position: relative;
+    }
+    div#menu>ul#meumenu>div>div#minim{
+        margin-top: 5px;
+        display: none;
+    }
+    div#menu>a>img{
+        width: 30px;
+        height: 30px;
+        margin-top: 3px;
+        padding: 10px;
+    }
     div#menupequeno{
-        display: block;
-        visibility: visible;
-        position: fixed;
+        position: absolute;
         display: inline-flex;
         text-align: center;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
         display: inline-flex;
         background-color: #280338;
@@ -760,11 +1027,11 @@ footer>div#RD>div#RD2>ul>li{
     }
     div#menupequeno>ul#meumenupeq>div>li#mascu{
         margin-top: 30px;
-        margin-left: -40px;
+        margin-left: 0px;
         color:white;
         float: left;
         background-color: #5f3372;
-        width: 260px;
+        width: 220px;
         height: 25px;
         cursor: pointer;
         padding-top: 8px;
@@ -772,11 +1039,11 @@ footer>div#RD>div#RD2>ul>li{
     }
     div#menupequeno>ul#meumenupeq>div>li#femi{
         margin-top: 30px;
-        margin-left: -50px;
+        margin-left: 0px;
         color:white;
         float: left;
         background-color: #5f3372;
-        width: 270px;
+        width: 220px;
         height: 25px;
         cursor: pointer;
         padding-top: 8px;
@@ -785,11 +1052,11 @@ footer>div#RD>div#RD2>ul>li{
     div#menupequeno>ul#meumenupeq>div>li#infa{
         cursor: pointer;
         margin-top: 30px;
-        margin-left: -55px;
+        margin-left: 0px;
         color:white;
         float: left;
         background-color: #5f3372;
-        width: 275px;
+        width: 220px;
         height: 25px;
         padding-top: 8px;
         font-family:'wigle' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -806,7 +1073,7 @@ footer>div#RD>div#RD2>ul>li{
     }
     div#menupequeno>ul#meumenupeq>div#X{
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 0px;
         cursor: pointer;
     }
     div#menupequeno>ul#meumenupeq>div#X>div#X1{
@@ -825,18 +1092,16 @@ footer>div#RD>div#RD2>ul>li{
     }
     section#camisetavenda{
         display: inline-block;
-        padding-top: 30px;
     }
     section#camisetavenda>div#venda{
-        background-color: #ce6bf9;
-        padding: 10px;
-        margin-top: 20px;
+        background-color: #d271fb;
+        box-shadow: 3px 3px 3px 3px #2a003c;
+        margin-top: 50px;
         display: inline-flex;
-        width: 100vh;
+        
     }
     section#camisetavenda>div#venda>h1{
         font-size: 1.5em;
-        max-width: 280px;
     }
     section#camisetavenda>div#venda>div#botões{
         display: none;
@@ -877,52 +1142,46 @@ footer>div#RD>div#RD2>ul>li{
         color: #d696f2;
     }
     section#camisetavenda>div#imagem{
-        background-color: #280338;
+        background-color: #da82ff;
         display: flex;
-        width: 100%;
-        padding:10px;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
         text-align: center;
-        width:330px;
-        height: 380px;
+        width:250px;
+        height: 280px;
     }
     section#camisetavenda>div#imagem>img#imggrande2{
         text-align: center;
-        width:350px;
-        margin-left:0px;
-        height: 380px;
+        width:250px;
+        height: 280px;
     }
     section#camisetavenda>div#imagem>img#imggrande3{
         text-align: center;
-        width:240px;
-        height: 380px;
-        margin-left:-320px;
+        width:250px;
+        height: 280px;
         
     }
     section#camisetavenda>div#imagem>img#imggrande4{
         text-align: center;
-        min-width:400px;
-        margin-left:-40px;
-        height: 380px;
+        width:250px;
+        height: 280px;
     }
     section#camisetavenda>div#imagem>img#imggrande5{
         text-align: center;
-        min-width:400px;
-        margin-left:-40px;
-        height: 380px;
+        width:250px;
+        height: 280px;
     }
     section#camisetavenda>div#imagem>div#imgpeq>img{
-        max-width: 100px;
-        height: 60px;
+        max-width: 50px;
+        height: 50px;
         margin-top: 5px;
     }
     section#camisetavenda>div#imagem>div#imgpeq{
         display: inline;
         background-color: white;
-        height: 365px;
-        max-width: 120px;
-        margin-left:0px;
+        height: 300px;
+        width: 70px;
+        margin-left:10px;
         padding:0px;
     }
     table{
