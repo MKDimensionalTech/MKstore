@@ -734,11 +734,11 @@ footer>div#RD>div#RD2>ul>li{
     }
     footer>div#RD{
         display: inline-flex;
-        margin-left: -30px;
+        margin-left: -10px;
         margin-top: 13px;
     }
     footer>div#RD>div#RD1>ul>li{
-        margin-left: -30px;
+        margin-left: -60px;
         list-style: none;
         padding: 5px;
     }
@@ -753,7 +753,7 @@ footer>div#RD>div#RD2>ul>li{
     }
     footer>div#RD>div#RD2>ul>li{
         list-style: none;
-        margin-left: -40px;
+        margin-left: -60px;
         padding: 5px;
     }
 }

@@ -1099,6 +1099,7 @@ footer>div#RD>div#RD2>ul>li{
         box-shadow: 3px 3px 3px 3px #2a003c;
         margin-top: 50px;
         display: inline-flex;
+        height: 300px;
         
     }
     section#camisetavenda>div#venda>h1{
@@ -1144,6 +1145,7 @@ footer>div#RD>div#RD2>ul>li{
     }
     section#camisetavenda>div#imagem{
         background-color: #da82ff;
+        height: 400px;
         display: flex;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
