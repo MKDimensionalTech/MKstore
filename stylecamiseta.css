@@ -233,8 +233,8 @@ div#cortm{
     margin-right: 15px;
 }
 section#camisetavenda>div#venda{
-    background-color: #d271fb;
-    box-shadow: 3px 3px 3px 3px #2a003c;
+    border: 1px solid rgb(244, 162, 255);
+    background-color: rgb(237, 204, 248);
     padding: 70px;
 }
 section#camisetavenda>div#venda>h1{
@@ -282,46 +282,76 @@ section#camisetavenda>div#venda>div#botões>button#carrinho:hover{
     color: #d696f2;
 }
 section#camisetavenda>div#imagem{
-    background-color: #da82ff;
+    background-color: #e8cbf5;
 
 }
 section#camisetavenda>div#imagem>img#imggrande1{
-    width:250px;
-    height: 280px;
+    width:450px;
+    height: 480px;
     margin-left:10px;
     margin-top: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section#camisetavenda>div#imagem>img#imggrande1:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 section#camisetavenda>div#imagem>img#imggrande2{
-    width:250px;
-    height: 280px;
+    width:450px;
+    height: 480px;
     display: none;
     margin-left:10px;
     margin-top: 10px;
     visibility: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section#camisetavenda>div#imagem>img#imggrande2:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 section#camisetavenda>div#imagem>img#imggrande3{
-    min-width:250px;
-    height: 280px;
+    min-width:450px;
+    height: 480px;
     display: none;
     margin-top: 10px;
     margin-left:10px;
     visibility: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section#camisetavenda>div#imagem>img#imggrande3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 section#camisetavenda>div#imagem>img#imggrande4{
-    min-width:250px;
-    height: 280px;
+    min-width:450px;
+    height: 480px;
     margin-top: 10px;
     display: none;
     margin-left:10px;
     visibility: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section#camisetavenda>div#imagem>img#imggrande4:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 section#camisetavenda>div#imagem>img#imggrande5{
-    min-width:250px;
-    height: 280px;
+    min-width:350px;
+    height: 480px;
     margin-top: 10px;
     display: none;
     margin-left:10px;
     visibility: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section#camisetavenda>div#imagem>img#imggrande5:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 section#camisetavenda>div#imagem>div#imgpeq>img{
     width: 80px;
@@ -395,8 +425,8 @@ input{
         display: inline-flex;
     }
     section#camisetavenda>div#venda{
-        background-color: #d271fb;
-        box-shadow: 3px 3px 3px 3px #2a003c;
+        border: 1px solid rgb(244, 162, 255);
+        background-color: rgb(237, 204, 248);
         padding: 70px;
     }
     section#camisetavenda>div#venda>h1{
@@ -444,30 +474,30 @@ input{
         color: #d696f2;
     }
     section#camisetavenda>div#imagem{
-        background-color: #da82ff;
+        background-color: #e8cbf5;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
-        min-width:250px;
+        min-width:150px;
         height: 380px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande2{
-        min-width:250px;
+        min-width:150px;
         height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande3{
-        min-width:250px;
+        min-width:200px;
         height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande4{
-        min-width:250px;
+        min-width:150px;
         height: 280px;
         margin-left: 30px;
     }
     section#camisetavenda>div#imagem>img#imggrande5{
-        min-width:250px;
+        min-width:200px;
         height: 280px;
         margin-left: 30px;
     }
@@ -730,12 +760,10 @@ footer>div#RD>div#RD2>ul>li{
     }
     section#camisetavenda{
         display: inline-block;
-        background-color: #d271fb;
-        box-shadow: 3px 3px 3px 3px #2a003c;
     }
     section#camisetavenda>div#venda{
-        background-color: #d271fb;
-        box-shadow: 3px 3px 3px 3px #2a003c;
+        border: 1px solid rgb(244, 162, 255);
+        background-color: rgb(237, 204, 248);
         margin-top: 50px;
         display: inline-flex;
         padding: 0px;
@@ -785,37 +813,37 @@ footer>div#RD>div#RD2>ul>li{
         color: #d696f2;
     }
     section#camisetavenda>div#imagem{
-        background-color:#da82ff;
+        background-color:#e8cbf5;
         display: inline-flex;
         width: 100%;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
         width:250px;
-        height: 280px;
+        height: 380px;
         margin-left: 30px;
         margin-top:10px
     }
     section#camisetavenda>div#imagem>img#imggrande2{
         width:250px;
-        height: 280px;
+        height: 380px;
         margin-left:30px;
         margin-top:10px
     }
     section#camisetavenda>div#imagem>img#imggrande3{
         width:250px;
-        height: 280px;
+        height: 380px;
         margin-top:10px
     }
     section#camisetavenda>div#imagem>img#imggrande4{
         width:250px;
-        height: 280px;
+        height: 380px;
         margin-top:10px;
         margin-left:30px;
 
     }
     section#camisetavenda>div#imagem>img#imggrande5{
         width:250px;
-        height: 280px;
+        height: 380px;
         margin-top:10px;
         margin-left:30px;
 
@@ -1095,11 +1123,10 @@ footer>div#RD>div#RD2>ul>li{
         display: inline-block;
     }
     section#camisetavenda>div#venda{
-        background-color: #d271fb;
-        box-shadow: 3px 3px 3px 3px #2a003c;
+        border: 1px solid rgb(244, 162, 255);
+        background-color: rgb(237, 204, 248);
         margin-top: 50px;
         display: inline-flex;
-        height: 300px;
         
     }
     section#camisetavenda>div#venda>h1{
@@ -1144,35 +1171,35 @@ footer>div#RD>div#RD2>ul>li{
         color: #d696f2;
     }
     section#camisetavenda>div#imagem{
-        background-color: #da82ff;
+        background-color: #e8cbf5;
         height: 400px;
         display: flex;
     }
     section#camisetavenda>div#imagem>img#imggrande1{
         text-align: center;
         width:250px;
-        height: 280px;
+        height: 380px;
     }
     section#camisetavenda>div#imagem>img#imggrande2{
         text-align: center;
         width:250px;
-        height: 280px;
+        height: 380px;
     }
     section#camisetavenda>div#imagem>img#imggrande3{
         text-align: center;
         width:250px;
-        height: 280px;
+        height: 380px;
         
     }
     section#camisetavenda>div#imagem>img#imggrande4{
         text-align: center;
         width:250px;
-        height: 280px;
+        height: 380px;
     }
     section#camisetavenda>div#imagem>img#imggrande5{
         text-align: center;
         width:250px;
-        height: 280px;
+        height: 380px;
     }
     section#camisetavenda>div#imagem>div#imgpeq>img{
         max-width: 50px;
